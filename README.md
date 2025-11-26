@@ -1,4 +1,8 @@
 ## 64-Bit Kernel
+
+<img width="1854" height="1012" alt="Screenshot from 2025-11-27 03-55-09" src="https://github.com/user-attachments/assets/b96c2426-7168-43a0-9a79-f94358243fe4" />
+
+
 ```markdown
 
 
