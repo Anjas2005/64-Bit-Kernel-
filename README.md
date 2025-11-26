@@ -1,5 +1,6 @@
+## 64-Bit Kernel
 ```markdown
-# 64-Bit Kernel
+
 
 A simple 64-bit operating system kernel written in C and x86_64 Assembly. This project demonstrates the basics of booting a 64-bit kernel using the Multiboot2 standard, setting up paging and the Global Descriptor Table (GDT), and printing text directly to the screen using VGA memory.  
 
