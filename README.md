@@ -21,39 +21,37 @@ A simple 64-bit operating system kernel written in C and x86_64 Assembly. This p
 
 ## Project Structure
 
-```
+## Project Structure
 
 64-Bit-Kernel/
 │
 ├─ buildenv/
-│  └─ Dockerfile              # Docker image setup with cross-compiler and build tools
+│ └─ Dockerfile # Docker image setup with cross-compiler and build tools
 │
 ├─ src/
-│  ├─ impl/
-│  │  ├─ kernel/
-│  │  │  └─ main.c           # Main kernel entry point
-│  │  ├─ x86_64/
-│  │  │  ├─ boot/
-│  │  │  │  ├─ header.asm    # Multiboot header
-│  │  │  │  ├─ main.asm      # 32-bit bootloader
-│  │  │  │  └─ main64.asm    # 64-bit long mode entry
-│  │  │  └─ print.c          # Kernel printing implementation
-│  └─ intf/
-│     └─ print.h              # Header for printing API
+│ ├─ impl/
+│ │ ├─ kernel/
+│ │ │ └─ main.c # Main kernel entry point
+│ │ ├─ x86_64/
+│ │ │ ├─ boot/
+│ │ │ │ ├─ header.asm # Multiboot header
+│ │ │ │ ├─ main.asm # 32-bit bootloader
+│ │ │ │ └─ main64.asm # 64-bit long mode entry
+│ │ │ └─ print.c # Kernel printing implementation
+│ └─ intf/
+│ └─ print.h # Header for printing API
 │
 ├─ targets/
-│  └─ x86_64/
-│     ├─ linker.ld            # Linker script
-│     └─ iso/
-│        └─ boot/
-│           └─ grub/
-│              └─ grub.cfg   # GRUB configuration
+│ └─ x86_64/
+│ ├─ linker.ld # Linker script
+│ └─ iso/
+│ └─ boot/
+│ └─ grub/
+│ └─ grub.cfg # GRUB configuration
 │
-├─ Makefile                   # Build rules for kernel and ISO
-├─ .gitignore                 # Ignore build outputs and temporary files
-└─ README.md                  # This file
-
-````
+├─ Makefile # Build rules for kernel and ISO
+├─ .gitignore # Ignore build outputs and temporary files
+└─ README.md # This file
 
 ---
 
