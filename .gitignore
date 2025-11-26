@@ -1,0 +1,12 @@
+boot/kernel.bin
+# Build outputs
+*.bin
+*.iso
+*.o
+*.img
+
+# Build directory
+build/
+
+# Temporary files
+*.log
