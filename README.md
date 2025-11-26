@@ -22,8 +22,6 @@ A simple 64-bit operating system kernel written in C and x86_64 Assembly. This p
 
 ## Project Structure
 
-## Project Structure
-
 64-Bit-Kernel/
 │
 ├─ buildenv/
